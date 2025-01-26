@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  position: absolute;
+  width: 100px;
+  top: 50px;
+  left: 50px;
+  filter: drop-shadow(0 0 2px #fff);
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+span {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  margin-right: 10px;
+}
+h1 {
+  color: #000000;
+  margin: 0;
+  font-size: 40px;
+  background-color: #fff;
+  padding: 4px 10px 1px 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.ukraine {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.germany {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.france {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.austria {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bulgaria {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+    text-align: center;
+  font-family: "Figtree", serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error h1 {
+  font-size: 80px;
+  font-weight: 500;
+  color: #949494;
+}
+.error p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #b7b7b7;
+  letter-spacing: 3px;
+}
+
+.error__img {
+  width: 300px;
+}
